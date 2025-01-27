@@ -1,0 +1,96 @@
+body{
+  text-align: center;
+  background-image: url(wp6816682.webp);
+  background-size: cover;
+  
+}
+.App {
+  padding-top: 200px;
+  font-family: Arial, sans-serif;
+}
+
+.todo-header {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.todo-container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.todo-form {
+  text-align: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.todo-form input {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.add-task-btn {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: violet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.todo-grid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.todo-item {
+  text-align: center;
+  background: white;
+  padding: 1rem;
+  border: 1px solid green;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item.completed {
+  text-align: center;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.todo-actions {
+  text-align: center;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-actions button {
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.todo-actions button:nth-child(1) {
+  text-align: center;
+  background-color: #28a745;
+  color: white;
+}
+
+.todo-actions button:nth-child(2) {
+  text-align: center;
+  background-color: #dc3545;
+  color: white;
+}
